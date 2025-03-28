@@ -4,9 +4,21 @@
   <em>A recursive Pascal–Euler–Galois inspired fractal computation framework</em><br>
   <strong>Exploring the lattices of computational possibility through combinatorial, algebraic, and fractal principles</strong>
 </div>
-
 ---
-
+<img width="1108" alt="PEGFRA Conceptual Framework- Mathematical Relationships" src="https://github.com/user-attachments/assets/cd4a931c-2e02-4013-8c09-4cc7918a7c04" />
+---
+<p align="center">
+  <a href="https://github.com/IraBond/ruliatrix">
+    <img alt="License" src="https://img.shields.io/github/license/IraBond/ruliatrix" />
+  </a>
+  <a href="https://github.com/IraBond/ruliatrix/commits/main">
+    <img alt="Commits" src="https://img.shields.io/github/commit-activity/m/IraBond/ruliatrix" />
+  </a>
+  <a href="https://github.com/IraBond/ruliatrix/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/IraBond/ruliatrix?style=social" />
+  </a>
+</p>
+---
 ## 🧠 Conceptual Foundation
 
 Ruliatrix embodies the convergence of classical mathematical structures and emergent computational paradigms. It orchestrates a dance between the deterministic and the fractal, revealing patterns that transcend traditional computational boundaries.
