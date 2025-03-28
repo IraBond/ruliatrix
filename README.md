@@ -115,6 +115,39 @@ As with any powerful framework, Ruliatrix faces implementation challenges:
 
 These challenges are not barriers but frontiers for ongoing exploration and refinement.
 
+
+---
+
+<p align="center">
+  <a href="https://github.com/IraBond/ruliatrix">
+    <img alt="License" src="https://img.shields.io/github/license/IraBond/ruliatrix" />
+  </a>
+  <a href="https://github.com/IraBond/ruliatrix/commits/main">
+    <img alt="Commits" src="https://img.shields.io/github/commit-activity/m/IraBond/ruliatrix" />
+  </a>
+  <a href="https://github.com/IraBond/ruliatrix/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/IraBond/ruliatrix?style=social" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="assets/ruliatrix_banner.png" width="600" alt="Ruliatrix Banner"/>
+</p>
+
+---
+
+<div align="center">
+  <em>A recursive Pascal–Euler–Galois inspired fractal computation framework</em><br>
+  <strong>Exploring the lattices of computational possibility through combinatorial, algebraic, and fractal principles</strong>
+</div>
+
+---
+
+## 🧠 Conceptual Foundation 
+... (rest of your README follows) ...
+
+---
+
 ## 👥 Contribution
 
 Ruliatrix welcomes collaborators interested in exploring the boundaries of computational theory and practice. Fork the repository, create visualizations, or extend the framework into new domains.
