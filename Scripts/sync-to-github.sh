@@ -1,4 +1,6 @@
 #!/bin/bash
+# Ensure this script is executable
+chmod +x "$0"
 
 # 🌐 Ruliatrix GitHub Sync Script
 # Created by Marley for Brian Nachenberg
