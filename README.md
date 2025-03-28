@@ -4,6 +4,7 @@
   <em>A recursive Pascal–Euler–Galois inspired fractal computation framework</em><br>
   <strong>Exploring the lattices of computational possibility through combinatorial, algebraic, and fractal principles</strong>
 </div>
+
 ---
 
 ## 🧠 Conceptual Foundation
