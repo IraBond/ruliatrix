@@ -1,0 +1,72 @@
+Brian, this error is rooted in a common misunderstanding between the `numpy` and `math` modules in Python.
+
+---
+
+### 🔍 The Core Issue
+
+You're trying to access `factorial` using:
+
+```python
+np.math.factorial()
+```
+
+But `numpy` **does not** have a submodule called `math`. So when you write `np.math`, Python throws an `AttributeError`.
+
+---
+
+### ✅ The Solution
+
+You should use the built-in Python `math` module directly, **not through `numpy`**.
+
+#### **Option 1: Import `math` and use it directly**
+Replace:
+```python
+value = int(np.math.factorial(n) / (np.math.factorial(i) * np.math.factorial(j) * np.math.factorial(k)))
+```
+With:
+```python
+import math
+
+value = int(math.factorial(n) / (math.factorial(i) * math.factorial(j) * math.factorial(k)))
+```
+
+#### **Option 2: Use `scipy.special.comb` for efficiency (especially for large values)**
+This is more efficient and numerically stable:
+```python
+from scipy.special import comb
+
+value = int(comb(n, i) * comb(n - i, j))
+# Since k = n - i - j, no need to recompute factorial again
+```
+
+---
+
+### 🧠 Advanced Tip
+
+If you’re working with very large numbers or doing heavy computations (e.g., for visualizing high-dimensional Pascal structures), using `scipy` over `math.factorial` is recommended due to speed and precision.
+
+---
+
+### 🎯 Final Suggestion
+
+For better clarity, optimize your `create_pascal_3d` logic like so:
+
+```python
+import math
+
+def create_pascal_3d(n_rows, dimension=3):
+    pascal_3d = []
+    for n in range(n_rows):
+        layer = []
+        for i in range(n + 1):
+            for j in range(n - i + 1):
+                k = n - i - j
+                value = int(math.factorial(n) / (math.factorial(i) * math.factorial(j) * math.factorial(k)))
+                layer.append((i, j, k, value))
+        pascal_3d.append(layer)
+    return pascal_3d
+```
+
+---
+
+Let me know if you want this visualized using 3D plotting (like `matplotlib` or `plotly`) or if you're using this for some sort of higher-dimensional pedagogical model—I'd love to help you push this concept further into the realm of interactive AI-driven education.

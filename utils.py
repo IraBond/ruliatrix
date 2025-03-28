@@ -44,13 +44,14 @@ def compute_multinomial_coefficient(n, k_list):
         raise ValueError("Sum of k values must equal n")
     
     # Calculate n!
-    numerator = np.math.factorial(n)
+    import math
+    numerator = math.factorial(n)
     
     # Calculate product of k_i!
     denominator = 1
     for k in k_list:
         if k > 0:  # Avoid computing 0!
-            denominator *= np.math.factorial(k)
+            denominator *= math.factorial(k)
     
     return numerator // denominator
 

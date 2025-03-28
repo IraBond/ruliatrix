@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 from scipy.special import comb
 import matplotlib.cm as cm
+import math
 
 def generate_pascal_triangle(rows):
     """
@@ -110,7 +111,7 @@ def create_pascal_3d(rows, dimension=3):
             for i in range(n + 1):
                 for j in range(n - i + 1):
                     k = n - i - j
-                    value = int(np.math.factorial(n) / (np.math.factorial(i) * np.math.factorial(j) * np.math.factorial(k)))
+                    value = int(math.factorial(n) / (math.factorial(i) * math.factorial(j) * math.factorial(k)))
                     # Convert to Cartesian coordinates
                     x = i - n/3
                     y = j - n/3

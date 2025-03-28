@@ -345,7 +345,7 @@ elif selected_section == "Combined Visualization":
     
     # Add transformed Pascal data
     for i in range(min(len(pascal_3d), 100)):
-        x, y, z = pascal_3d[i]
+        x, y, z, log_val, val = pascal_3d[i]  # Unpack all 5 values from the tuple
         # Apply a transformation based on G(2) symmetry to show interconnection
         unified_x.append(x * np.cos(z * 0.1) - y * np.sin(z * 0.1))
         unified_y.append(x * np.sin(z * 0.1) + y * np.cos(z * 0.1))
@@ -363,7 +363,7 @@ elif selected_section == "Combined Visualization":
     
     # Add fractal recursion data
     for i in range(min(len(fractal_data), 100)):
-        x, y, z = fractal_data[i]
+        x, y, z, log_val, val = fractal_data[i]  # Unpack all 5 values from fractal_data
         # Transform to integrate
         unified_x.append(x * 1.5 - 2)
         unified_y.append(y * 1.5 - 2)
