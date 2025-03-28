@@ -5,8 +5,21 @@
   <strong>Exploring the lattices of computational possibility through combinatorial, algebraic, and fractal principles</strong>
 </div>
 ---
-<img width="1108" alt="PEGFRA Conceptual Framework- Mathematical Relationships" src="https://github.com/user-attachments/assets/cd4a931c-2e02-4013-8c09-4cc7918a7c04" />
+
+## 🧠 Conceptual Foundation
+
+Ruliatrix embodies the convergence of classical mathematical structures and emergent computational paradigms. It orchestrates a dance between the deterministic and the fractal, revealing patterns that transcend traditional computational boundaries.
+
+> "In the space between recursion and emergence, we find the true nature of computation."
+
+Ruliatrix is not merely a tool but a philosophical instrument for probing the depths of algorithmic cognition. It stands at the intersection of mathematical formalism and computational expressivity, offering a glimpse into the underlying structure of information processing itself.
+
 ---
+
+<img width="1108" alt="PEGFRA Conceptual Framework- Mathematical Relationships" src="https://github.com/user-attachments/assets/cd4a931c-2e02-4013-8c09-4cc7918a7c04" />
+
+---
+
 <p align="center">
   <a href="https://github.com/IraBond/ruliatrix">
     <img alt="License" src="https://img.shields.io/github/license/IraBond/ruliatrix" />
@@ -18,14 +31,9 @@
     <img alt="Stars" src="https://img.shields.io/github/stars/IraBond/ruliatrix?style=social" />
   </a>
 </p>
+
 ---
-## 🧠 Conceptual Foundation
 
-Ruliatrix embodies the convergence of classical mathematical structures and emergent computational paradigms. It orchestrates a dance between the deterministic and the fractal, revealing patterns that transcend traditional computational boundaries.
-
-> "In the space between recursion and emergence, we find the true nature of computation."
-
-Ruliatrix is not merely a tool but a philosophical instrument for probing the depths of algorithmic cognition. It stands at the intersection of mathematical formalism and computational expressivity, offering a glimpse into the underlying structure of information processing itself.
 
 ## 🔮 The PEGFRA Core
 
