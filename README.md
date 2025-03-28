@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="![80309776-7CA9-4F66-BCBB-CC3E3A651F2E](https://github.com/user-attachments/assets/9e49b506-fc2e-46c5-8cff-4a752431e88f)
+" width="600" alt="Ruliatrix Banner"/>
+</p>
+
 # 🌌 Ruliatrix
 
 <div align="center">
