@@ -1,0 +1,7 @@
+{
+    "markdown.extension.completion.enabled": true,
+    "markdown.extension.completion.respectVscodeSearchExclude": false,
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.print.absoluteImgPath": false,
+    "markdown.extension.toc.updateOnSave": false
+}
